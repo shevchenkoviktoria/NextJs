@@ -27,6 +27,7 @@ export default async function Page({ params }: Params) {
     genderDataPromise,
     countryDataPromise,
   ]);
+  console.log(age)
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3 p-4">
